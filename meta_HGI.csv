@@ -1,0 +1,2 @@
+filename	internalDataLink	Consortium	Outcome	FullName	Type	Reference	ReferenceLink	dataLink	Nsample	Ncase	Ncontrol	Nsnp	snpid	a1	a2	freq	pval	n	z	OR	se	CHR	POS	code	imp	ncas	ncont	altNcas	altNcont	index_type
+chr22_Finn_extract.txt		COVID	FINNGEN	FinnGenn karjalainem	infection				238711			13462262		Allele1	Allele2	AF_Allele2	p.value	N	BETA		SE	CHR	POS							positional
