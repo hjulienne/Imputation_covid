@@ -16,9 +16,9 @@ print(sys.argv)
 # Z_masked[0].to_csv(f_out_masked, sep="\t")
 
 
-perf_results = raiss.imputation_R2.grid_search("{0}/z_score_chr/".format(base_dir),
-                                "{0}/z_score_masked/".format(base_dir),
-                                "{0}/z_score_imputed/".format(base_dir),
+perf_results = raiss.imputation_R2.grid_search("{0}/z_scores_chr/".format(base_dir),
+                                "{0}/z_scores_masked/".format(base_dir),
+                                "{0}/z_scores_imputed/".format(base_dir),
                                 "{0}/ref_panel/".format(base_dir),
                                 "{0}/ld/".format(base_dir),
                                 code_GWAS, eigen_ratio_grid =[0.1, 0.01, 0.005, 0.001], N_to_mask=10000,
